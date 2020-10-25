@@ -1,0 +1,21 @@
+NUMBER                   Running object number                                    
+EXT_NUMBER               FITS extension number  
+FLUX_APER(1)                #Flux vector within fixed circular aperture(s)             [count]
+FLUXERR_APER             #RMS error vector for aperture flux(es)                    [count]
+MAG_APER(1)                 #Fixed aperture magnitude vector                           [mag]
+MAGERR_APER              #RMS error vector for fixed aperture mag.                  [mag]
+MAG_AUTO                 Kron-like elliptical aperture magnitude                   [mag]
+X_IMAGE                  Object position along x                                   [pixel]
+Y_IMAGE                  Object position along y                                   [pixel]
+ALPHA_J2000              Right ascension of barycenter (J2000)                     [deg]
+DELTA_J2000              Declination of barycenter (J2000)                         [deg]
+XWIN_IMAGE               Windowed position estimate along x                        [pixel]
+YWIN_IMAGE               Windowed position estimate along y                        [pixel]
+ERRAWIN_IMAGE            RMS windowed pos error along major axis                   [pixel]
+ERRBWIN_IMAGE            RMS windowed pos error along minor axis                   [pixel]
+ERRTHETAWIN_IMAGE        Windowed error ellipse pos angle (CCW/x)                  [deg]
+FLAGS                    Extraction flags                                         
+FLAGS_WEIGHT             Weighted extraction flags                                
+FWHM_IMAGE               FWHM assuming a gaussian core                             [pixel]
+FWHM_WORLD               FWHM assuming a gaussian core                             [deg]
+MAG_ISO                  Isophotal magnitude                                       [mag]
